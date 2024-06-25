@@ -1,0 +1,390 @@
+
+
+
+    * {
+        box-sizing: border-box;
+        background-position: center;
+        display: responsive;
+    }
+    
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+      overflow-x: hidden;
+    
+    
+}
+
+.home_page {
+   
+        background-image: url(../images/Home_page.png);
+        min-height: 500px; /* Ensures the container is at least 900px high */
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 15px;
+    font-weight: bolder;
+    width: 100%;
+    position: fixed; /* Ensures navbar stays at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    display: flex; /* Aligns items horizontally */
+    align-items: center; /* Centers items vertically */
+    width: auto;
+    height: 27px; /* Updated height */
+    top: 42px;
+    left: 128px;
+    opacity: 1; /* Set to 1 to make it visible */
+    gap: 10px; /* Adds space between image and text */
+    font-size: 15px; /* Adjust font size */
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+}
+
+.logo img {
+    width: auto; /* Sets width of the image */
+    height:15px ; /* Maintains aspect ratio */
+    border-radius: 35%;
+}
+
+.nav_link {
+    display: flex;
+    gap: 30px;
+}
+
+.nav_link a {
+    color: rgba(3, 3, 3, 0.978);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.nav_link a:hover {
+    color: rgba(44, 125, 10, 0.997);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Add padding to the container */
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    height: 100vh;
+    font-weight: 9;
+}
+
+.left_container {
+    max-width: 50%; /* Ensure the left container doesn't take too much space */
+    margin-left: 10px;
+}
+
+.left_container h1,
+.left_container h3 {
+    margin: 0;
+}
+
+.left_container h3 {
+    font-size: 25px;
+    font-family: Open Sans;
+    color: rgb(92, 209, 14);
+}
+
+#Google_play,
+#App_Store {
+    height: auto;
+    width: 220px;
+}
+
+.right_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8%;
+}
+
+.right_container img {
+    margin-top: 10%;
+    height: 500px;
+    width: 300px
+}
+
+
+
+
+/* this section for section 2 */
+.section1{
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+     height: 600px;
+	width: 100%;
+    
+}
+.left-container{
+    width: 700px;
+    height: 200px;
+    margin-left: 10px;
+    margin: 10px;
+    
+}
+.right-container {
+    width: 700px;
+    height: 600px;
+    text-align: center;
+    margin: 10px;
+   
+}
+  
+
+
+/* section5 */
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    
+}        
+.left-container3 {
+    width: 700px;
+    height: 200px;
+    margin-left: 25px;
+    margin: 10px;
+    
+}
+.right-container3{
+    width: 700px;
+    height: 600px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10%;
+    float: right;
+    
+}
+
+/* section 6 Features */
+.flex-container6 {
+    display: flex;
+    
+     
+  }
+  .flex-container6 >h4{
+        font-size: 35px;  }
+
+  .flex-container6 >div>p {
+     font-size: 15px;
+     
+  }
+  .features{
+    
+      font-size: 30px;
+       justify-content: center;
+        text-align: center;
+    
+  }
+  
+  .flex-container6 > div {
+    box-shadow: #fbfafafa;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 100px;
+    
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.15);
+    border: 1px ;
+    top: 0%;
+  }
+
+
+
+
+  /* Contact US */
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .testimonials{
+    text-align: center;
+    
+  }
+
+  .contact-us >h1{
+    
+        text-align: center;
+    
+  }
+
+  .column{
+    flex: 25%;
+  padding: 20px;
+  }
+  .column2{
+    flex: 25%;
+  padding: 75px;
+  margin-top: 25px;
+  position: relative; /* Make .column2 the reference for absolute positioning */
+  padding-bottom: 20px;
+  }
+  
+
+  /* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 50px 20px; /* Add padding to the section */
+    background-color: #f9f9f9; /* Background color for the section */
+}
+
+.contact-us .heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the row content */
+}
+
+.column {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and minimum width */
+    max-width: 600px; /* Maximum width for the column */
+    padding: 20px;
+    background-color: #ffffff; /* Background color for the column */
+    
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-color: #f9f9f929;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Space between inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px;
+    border-color: #f1f1f136;
+}
+
+form textarea {
+    height: 150px; /* Set a height for the textarea */
+    resize: vertical; /* Allow vertical resize */
+    
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+.rectangle {
+    position: absolute; /* Position this element absolutely */
+    bottom: 75px; /* 4px from the bottom of .column2 */
+    right: 50px; /* 0px from the right of .column2 */
+}
+  
+
+
+
+
+  /* Last */
+  .last1{
+    background-image: url(../images/Rectangle\ 40.png);
+   color: #f1f1f1;
+   height: 300px;
+   width: 100%;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+  }
+  .last1 img{
+    width: auto;
+    height: 58px;
+    top: 6065px;
+    left: 541px;
+    gap: 0px;
+   
+
+  }
+  .last ,h1{
+    font-family: Open Sans;
+font-size: 42px;
+font-weight: 700;
+line-height: 57.2px;
+  }
+
+  .last >h4{
+    font-family: Open Sans;
+ font-size: 22px;
+ font-weight: 400;
+ line-height: 29.96px;
+  }
+
+
+  .flex-container-last {
+    display: flex;
+    background-color: black;
+    font-size: 14px;
+  }
+  .flex-container-last > div {
+   
+    margin: 8px;
+    padding: 28px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    
+  }
+  .flex-container-last > div  ul {
+    list-style-type: none;
+}
